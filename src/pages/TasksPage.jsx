@@ -12,11 +12,9 @@ const TasksPage = () => {
 
   return (
     <>
-      <h2 className="mb-3">Tasks (demo)</h2>
+      <h2 className="mb-3">Tasks </h2>
       <p className="text-muted">
-        These are example tasks grouped under a sample team. New tasks you add
-        here are only stored in memory for now – this milestone is focused on
-        layout and routing, not permanent data.
+        These are example tasks grouped under a sample team. 
       </p>
 
       <AddTaskForm onAdd={handleAddTask} />
