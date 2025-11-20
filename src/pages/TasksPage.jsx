@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TaskCard from "../components/TaskCard.jsx";
 import AddTaskForm from "../components/AddTaskForm.jsx";
-import { sampleTasks } from "./sampleData.jsx";
+import { sampleTasks } from "../sampleData.jsx";
 
 const TasksPage = () => {
   const [tasks, setTasks] = useState(sampleTasks);
