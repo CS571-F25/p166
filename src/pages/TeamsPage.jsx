@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import TeamCard from "../components/TeamCard.jsx";
-import { sampleTeams } from "../sampleData.jsx";
+import { sampleTeams } from "./sampleData.jsx";
 
 const TeamsPage = () => {
   return (
